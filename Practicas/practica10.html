@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 10</title>
+    <style>
+        *{
+            font-size: 40px;
+        }
+        input:button{
+            font-size: 50px;
+        }
+    </style>
+
+    <script>
+        function sumar(){
+            let numero1 = parseInt(document.getElementById("num1").value);
+            let numero2 = parseInt(document.getElementById("num2").value);
+            let res = parseInt(numero1+numero2);
+            let cadena = "resultado = "+res;
+            document.getElementById("resultado").innerHTML=cadena;
+        }
+        function restar(){
+            let numero1 = parseInt(document.getElementById("num1").value);
+            let numero2 = parseInt(document.getElementById("num2").value);
+            let res = parseInt(numero1-numero2);
+            let cadena = "resultado = "+res;
+            document.getElementById("resultado").innerHTML=cadena;
+        }
+        function multiplicar(){
+            let numero1 = parseInt(document.getElementById("num1").value);
+            let numero2 = parseInt(document.getElementById("num2").value);
+            let res = parseInt(numero1*numero2);
+            let cadena = "resultado = "+res;
+            document.getElementById("resultado").innerHTML=cadena;
+        }
+        function dividir(){
+            let numero1 = parseFloat(document.getElementById("num1").value);
+            let numero2 = parseFloat(document.getElementById("num2").value);
+            let res = parseFloat(numero1/numero2);
+            let cadena = "resultado = "+res;
+            
+            document.getElementById("resultado =").innerHTML=cadena;
+        }
+    </script>
+</head>
+<body>
+    
+    <input type="number" name="num1" id="num1" placeholder="num1" required>
+    <input type="number" name="num2" id="num2" placeholder="num2" required>
+    <br>
+    <input type="button" id="boton" value="Sumar" onclick="sumar()">
+    <input type="button" id="boton" value="Restar" onclick="restar()">
+    <input type="button" id="boton" value="Multiplicar" onclick="multiplicar()">
+    <input type="button" id="boton" value="Dividir" onclick="dividir()">
+
+    <div id="resultado">
+        resultado
+    </div>
+
+</body>
+</html>
