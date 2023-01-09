@@ -1,5 +1,5 @@
 # [Programación web examen](https://www.youtube.com/@mannyGL)
-
+Primero que nada, esta carpeta contiene todos los proyectos realizados, el que se describe en este **README.MD** se encuentra en la carpeta llamada **tienda**, muchas gracias.
 Todos los derechos reservados para **Jonathan Rodriguez**, creador del sitio y alumno del TESOEM perteneciente a la carrera de Ingeniería en Sistemas Computacionales.
 
 ## Requisitos enviados por el docente.
