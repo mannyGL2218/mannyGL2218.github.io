@@ -1,0 +1,35 @@
+body div{
+    background-image: radial-gradient(#94949445 1px,transparent 0);
+    background-color: #090E16;
+    background-size: 20px 20px;
+}
+#SobreMi{
+    padding-top: 20%;
+    padding-bottom: 30%;
+}
+#SobreMi h1{
+    color: white;
+    font-size: 3.75rem;
+}
+#SobreMi h3{
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(90deg,#FF80AA,#a6a8b0);
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+}
+#Chibi{
+    height: 15em;
+    width: 15em;
+    float: center;
+}
+#MasInformacion{
+    background-color: lightsteelblue;
+    border-radius: 3%;
+}
+#Foto{
+    height: 25em;
+    width: 25em;
+    float: center;
+}
