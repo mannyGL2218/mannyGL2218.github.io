@@ -13,35 +13,89 @@ body div{
 }
 .Caja{
     background: whitesmoke;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     text-align: center;
-    line-height: 150px;
+    /*line-height: 150px;*/
 }
 .EspacioLargo{
     background-color: black;
     grid-column: 1/4;
+    height: 20vh;
+    line-height: 20vh;
+    
 }
-.Nombre{    
+.Bienvenida{
+    height: 50vh;
+    line-height: 50vh;
+}
+/*
+.Bienvenida span{
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(90deg,#FF91AF,#a6a8b0);
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+}
+*/
+.Datos{    
     background-color: lightpink;
     grid-column: 1/3;
+    height: 50vh;
+    line-height: 50vh;
 }
 .Chibi{
     background-color: lightslategray;
 }
+#Saludo{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: lightgreen;
+    padding: 10px;
+    position: relative;
+    height: 50vh;
+    line-height: 50vh;
+}
+.SaludoCaja{
+    background: steelblue;
+    border: 1px solid black;
+    color: white;
+    text-align: left;
+}
+.SaludoEspacio{
+    background: black;
+    grid-column: 1/4;
+    height: 8vh;
+    line-height: 8vh;
+}
+.Nombre{
+    grid-column: 1/4;
+    height: 8vh;
+    line-height: 8vh;
+}
+.Profesion{
+    grid-column: 1/4;
+    height: 8vh;
+    line-height: 8vh;
+}
+.Boton{
+    height: 8vh;
+    line-height: 8vh;
+}
 .SobreMi{
     background-color: plum;
     grid-column: 1/4;
+    height: 40vh;
+    line-height: 40vh;
 }
 .Titulo{
     background-color: lightskyblue;
     grid-column: 1/4;
+    
 }
 .Parrafo{
     background-color: palegreen;
-    grid-column: 1/3;
-}
-.Descripcion{
-    background-color: lightgoldenrodyellow;
+    grid-column: 1/4;
 }
 .Iconos{
     background-color: lightsalmon;
@@ -49,5 +103,7 @@ body div{
 }
 .Proyecto{
     background-color: aquamarine;
+    height: 40vh;
+    line-height: 40vh;
 }
 
